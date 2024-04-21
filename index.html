@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>travel</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- link icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header id="beranda">
+      <h1>Travel Sukabumi</h1>
+    </header>
+
+    <!-- navbar -->
+
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <a href="#">Travel Information</a>
+        </div>
+        <ul class="menu">
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#b">Destinasi</a></li>
+          <li><a href="#Paketwisata">Paket Wisata</a></li>
+          <li><a href="#d">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- destinasi -->
+
+    <main>
+      <section class="destinasi" id="b">
+        <h2>Destinasi Populer</h2>
+        <div class="destinasi-items">
+          <img src="poto/pantai1.jpeg" alt="Destinasi 1" />
+          <h3>Ujung genteng</h3>
+          <p>
+            Ujung Genteng adalah daerah pesisir pantai selatan Jawa Barat,
+            terletak ±220 Km dari kota Jakarta.
+          </p>
+          <button>Detail</button>
+        </div>
+        <div class="destinasi-items">
+          <img src="poto/curug.jpeg" alt="Destinasi 1" />
+          <h3>Geopark</h3>
+          <p>
+            Geopark Ciletuh terletak di delapan desa Kecamatan Ciemas dan Ujung
+            Genteng, Kabupaten Sukabumi.
+          </p>
+          <button>Detail</button>
+        </div>
+        <div class="destinasi-items">
+          <img src="poto/jembatan.jpg" alt="Destinasi 1" />
+          <h3>Situ Gunung</h3>
+          <p>
+            Situ Gunung Suspension Bridge merupakan salah satu tempat wisata
+            yang berlokasi di Sukabumi, Jawa Barat.
+          </p>
+          <button>Detail</button>
+        </div>
+      </section>
+
+      <!-- paket wisata -->
+
+      <section class="Paketwisata" id="Paketwisata">
+        <h2>Paket Wisata</h2>
+        <div class="Paketwisata-container">
+          <div class="paketwisata-items">
+            <img src="poto/pantai1.jpeg" alt="Paket wisata 1" />
+            <h3>paket 1</h3>
+            <p>harga: $500</p>
+            <p>durasi: 1 hari</p>
+            <p>Destinasi: Destinasi 1, Destinasi 2</p>
+            <button>beli sekarang</button>
+          </div>
+          <div class="paketwisata-items">
+            <img src="poto/curug.jpeg" alt="Paket wisata 1" />
+            <h3>paket 2</h3>
+            <p>harga: $500</p>
+            <p>durasi: 1 hari</p>
+            <p>Destinasi: Destinasi 1, Destinasi 2</p>
+            <button>beli sekarang</button>
+          </div>
+          <div class="paketwisata-items">
+            <img src="poto/jembatan.jpg" alt="Paket wisata 1" />
+            <h3>paket 3</h3>
+            <p>harga: $500</p>
+            <p>durasi: 1 hari</p>
+            <p>Destinasi: Destinasi 1, Destinasi 2</p>
+            <button>beli sekarang</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- kontak -->
+
+      <section id="d" class="kontak">
+        <h2>Hubungi Kami</h2>
+        <div class="kontak-container">
+          <div class="kontak-info">
+            <div class="kontak-items">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="kontak-text">
+                <p>Alamat:</p>
+                <p>123 Jalan Wisata, Kota Wisata</p>
+              </div>
+            </div>
+            <div class="kontak-items">
+              <i class="fas fa-phone"></i>
+              <div class="kontak-text">
+                <p>Telephone:</p>
+                <p>+62 2222 3333</p>
+              </div>
+            </div>
+            <div class="kontak-items">
+              <i class="fas fa-envelope"></i>
+              <div class="kontak-text">
+                <p>Email:</p>
+                <p>sukabumiKU@example.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="kontak-form">
+            <h3>Kirim Pesan</h3>
+            <form>
+              <div class="form-grup">
+                <input type="text" placeholder="Nama Anda" required />
+              </div>
+              <div class="form-grup">
+                <input type="email" placeholder="Email Anda" required />
+              </div>
+              <div class="form-grup">
+                <textarea placeholder="Pesan Anda" rows="4"></textarea>
+              </div>
+              <button type="submit">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- tombol up -->
+    <div class="container">
+      <div class="tombol" border="1">
+        <div>
+          <a href="#beranda"><i data-feather="arrow-up"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+      <p>created by <a href="salman">salman </a>| &copy; Yogyakarta 2024</p>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
